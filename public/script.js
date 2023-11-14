@@ -140,8 +140,8 @@ window.onload = () => {
     showTeams();
     document.getElementById("add-team-form").onsubmit = addTeam;
     document.getElementById("add-link").onclick = showHideAdd;
-    document.querySelector(".close").onclick = () => {
-        document.querySelector(".dialog").classList.add("transparent");
-    };
+    // document.querySelector(".close").onclick = () => {
+    //     document.querySelector(".dialog").classList.add("transparent");
+    // };
     document.getElementById("add-player").onclick = addPlayer;
 };
